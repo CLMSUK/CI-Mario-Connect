@@ -1,0 +1,33 @@
+{
+  "name": "mario-connect",
+  "version": "0.3.5",
+  "description": "Connection manager for CLMS Connectivity Infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha --timeout 15000"
+  },
+  "author": "Antonis Mygiakis <a.migiakis@clmsuk.com>",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.4.2",
+    "assert": "^1.4.1",
+    "bluebird": "^3.4.1",
+    "nconf": "^0.8.4",
+    "node-uuid": "^1.4.7",
+    "seneca": "^2.1.0",
+    "service-metadata-provider": "^0.3.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://dev.zappdev.com/Bonobo/mario-connect.git"
+  },
+  "publishConfig": {
+    "registry": "http://clmscidev.westeurope.cloudapp.azure.com:4873/"
+  }
+}
